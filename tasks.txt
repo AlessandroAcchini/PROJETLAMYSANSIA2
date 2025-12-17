@@ -1,0 +1,21 @@
+Faire verifs inscription.php
+
+14/12/25
+Je me suis arrêté à l'affichage dynamique du nombre de classes, faut faire tout en rapport avec les élèves maintenant
+
+17/12/25
+
+tout en rapport avec les élèves
+voir la liste des classes 
+
+A FAIRE : FAIRE FONCTIONNER TOUS LES BOUTONS PARTOUT AVEC LES BONNES ROUTES
+          LES PROFESSEURSSSSSSSSSSSSS
+
+
+        
+17/12/25 : 11h40 CREATION PROFESSEURS SUCCESSSSSS
+
+
+
+
+DEFI ULTIME FAIRE L'ARCHITECTURE MVC PROPREMENT ET PAS TOUT METTRE DANS LES CONTROLLEURS OMG

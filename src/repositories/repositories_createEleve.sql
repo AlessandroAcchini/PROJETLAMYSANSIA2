@@ -1,0 +1,28 @@
+CREATE TABLE eleve (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nomEleve VARCHAR(100) NOT NULL,
+    prenomEleve VARCHAR(100) NOT NULL,
+    classeEleve INT UNSIGNED NOT NULL,   -- référence vers classes.id
+    datenaissance DATE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+
+    CONSTRAINT fk_eleve_classe
+        FOREIGN KEY (classeEleve) REFERENCES classes(id)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+
+
+
+CREATE TABLE professeurs (
+    idProfesseur INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nomProfesseur VARCHAR(50) NOT NULL,
+    prenomProfesseur VARCHAR(50) NOT NULL,
+    matiereProfesseur VARCHAR(50) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP
+);
