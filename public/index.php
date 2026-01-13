@@ -12,6 +12,8 @@ require_once __DIR__ . '/../src/controllers/controller_createEleve.php';
 require_once __DIR__ . '/../src/controllers/controller_voirEleves.php';
 require_once __DIR__ . '/../src/controllers/controller_voirClasses.php';
 require_once __DIR__ . '/../src/controllers/controller_createProfesseur.php';
+require_once __DIR__ . '/../src/controllers/controller_voirProfesseurs.php';
+require_once __DIR__ . '/../src/controllers/controller_createSanctions.php';
 
 use App\Http\Request;
 use App\Http\Response;
@@ -32,5 +34,7 @@ $router->addRoute('creerEleve', 'creerEleve', ['GET', 'POST']);
 $router->addRoute('voirEleves', 'voirEleves', ['GET']);
 $router->addRoute('voirClasses', 'voirClasses', ['GET']);
 $router->addRoute('creerProfesseur', 'creerProfesseur', ['GET', 'POST']);
+$router->addRoute('voirProfesseurs', 'voirProfesseurs', ['GET']);
+$router->addRoute('creerSanctions', 'creerSanctions', ['GET', 'POST']);
 
 $router->handleRequest();

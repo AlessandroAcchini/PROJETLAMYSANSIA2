@@ -3,7 +3,7 @@
  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
 
 
-<nav class="bg-primary text-white">
+<nav class="bg-blue-800 text-white">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center">
 
@@ -13,7 +13,7 @@
           <a class="flex items-center px-3 py-4 text-sm font-medium hover:bg-blue-700" href="index.php?action=dashboard">
             <span class="material-icons text-base mr-2">dashboard</span>Tableau de Bord
           </a>
-          <a class="flex items-center px-3 py-4 text-sm font-medium hover:bg-blue-700" href="index.php?action=dashboard">
+          <a class="flex items-center px-3 py-4 text-sm font-medium hover:bg-blue-700" href="index.php?action=creerSanctions">
             <span class="material-icons text-base mr-2">gavel</span>Sanctions
           </a>
           <a class="flex items-center px-3 py-4 text-sm font-medium hover:bg-blue-700" href="index.php?action=voirEleves">

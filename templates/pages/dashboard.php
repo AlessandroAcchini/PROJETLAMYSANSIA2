@@ -133,7 +133,7 @@ $pdo = Database::getConnection();
 <span class="material-icons text-yellow-500 mr-2">flash_on</span>Accès Rapide
             </h2>
 <div class="space-y-4">
-<a class="flex items-center p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors" href="#">
+<a class="flex items-center p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors" href="index.php?action=creerSanctions">
 <div class="p-2 bg-red-100 dark:bg-red-900 rounded-full mr-4">
 <span class="material-icons text-red-500 dark:text-red-400">add</span>
 </div>

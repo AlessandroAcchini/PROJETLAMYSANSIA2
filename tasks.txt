@@ -19,3 +19,8 @@ A FAIRE : FAIRE FONCTIONNER TOUS LES BOUTONS PARTOUT AVEC LES BONNES ROUTES
 
 
 DEFI ULTIME FAIRE L'ARCHITECTURE MVC PROPREMENT ET PAS TOUT METTRE DANS LES CONTROLLEURS OMG
+
+07/01/2026
+
+faire les boutons pour rediriger vers la création de sanctions
+faire un message de succès quand une sanction est crée 
